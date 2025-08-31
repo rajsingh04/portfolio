@@ -13,6 +13,9 @@ export function Header() {
     shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25] sm:w-[36rem] sm:rounded-full"
         initial={{ y: -100, x: "-50%", opacity: 0 }}
         animate={{ y: 0, x: "-50%", opacity: 1 }}
+        transition={{
+          duration: 0.5,
+        }}
       ></motion.div>
       <nav
         className="flex fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2 
@@ -29,10 +32,13 @@ export function Header() {
               key={link.hash}
               initial={{ y: -100, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
+              transition={{
+                duration: 0.5,
+              }}
             >
               <Link
                 className="flex w-full items-center justify-center px-3 py-5
-                 hover:text-gray-950 transition"
+                 hover:text-blue-300 transition"
                 href={link.hash}
               >
                 {link.name}
