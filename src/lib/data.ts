@@ -37,23 +37,23 @@ export const projectsData = [
   {
     title: "WanderLust",
     description:
-      "An Airbnb-style application designed for booking hotels across various regions worldwide, developed using the Model-View-Controller (MVC) architecture to ensure scalability, maintainability, and a clear separation of concerns",
+      "An Airbnb-style application designed for booking hotels across various regions worldwide, developed using the Model-View-Controller (MVC) architecture to ensure scalability.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind"],
-    imageUrl: "",
+    imageUrl: "/wanderlust-project.png",
   },
   {
     title: "Tomato",
     description:
-      "Developed a full-stack food delivery web application using React, featuring a seamless Stripe payment gateway integration for secure transactions",
+      "Developed a full-stack food delivery web application using React, featuring a seamless Stripe payment gateway integration for secure transactions.",
     tags: ["React", "Nodejs", "Tailwind", "context"],
-    imageUrl: "",
+    imageUrl: "/tomato-project.png",
   },
   {
     title: "Techy",
     description:
-      "Implemented instant messaging using WebSockets with Socket.IO for seamless, bidirectional communication between users",
+      "Implemented instant messaging using WebSockets with Socket.IO for seamless, bidirectional communication between users.",
     tags: ["Flutter", "Express", "Nodejs", "MongoDB", "WebSockets"],
-    imageUrl: "",
+    imageUrl: "/techy-project.png",
   },
 ] as const;
 
