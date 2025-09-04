@@ -1,3 +1,7 @@
+import { LuGraduationCap } from "react-icons/lu";
+import { CgWorkAlt } from "react-icons/cg";
+import React from "react";
+import { title } from "process";
 export const links = [
   {
     name: "Home",
@@ -22,14 +26,6 @@ export const links = [
   {
     name: "Contact",
     hash: "#contact",
-  },
-] as const;
-
-export const experiencesData = [
-  {
-    title: "Product Developer Intern",
-    location: "Work from home",
-    description: "Test description",
   },
 ] as const;
 
@@ -71,4 +67,23 @@ export const skillsData = [
   "Express",
   "Python",
   "Django",
+] as const;
+
+export const experiencesData = [
+  {
+    title: "Product Developer Intern",
+    location: "Work from home",
+    description:
+      "Focusing on enhancing technical skills, contributing to application development, and gaining industry-level experience in building impactful products.",
+    date: "Sept 2025 - Present",
+    icon: React.createElement(CgWorkAlt),
+  },
+  {
+    title: "Bachelor of Technology in CSE",
+    location: "Sangam University, Bhilwara",
+    description:
+      "Focus on software development, data structures & algorithms, and modern web technologies. Gaining a strong foundation in both theoretical concepts and practical applications.",
+    date: "Aug 2023 - Present",
+    icon: React.createElement(LuGraduationCap),
+  },
 ] as const;

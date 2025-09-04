@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`bg-gray-50 overflow-x-hidden w-full text-gray-950 relative h-[5000px] pt-28 sm:pt-36`}
+        className={`bg-gray-50 text-gray-950 relative min-h-screen pt-28 sm:pt-36`}
         suppressHydrationWarning
       >
         <div
