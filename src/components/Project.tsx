@@ -4,7 +4,7 @@ import { projectsData } from "@/lib/data";
 import ProjectComponent from "./ProjectComponent";
 export default function Project() {
   return (
-    <section>
+    <section id="projects" className="scroll-mt-28">
       <SectionHeading>My Projects</SectionHeading>
       <div>
         {projectsData.map((project, index) => (

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Header } from "@/components/Header";
+import ActiveSectionContextProvider from "@/context/ActiveSectionContextProvider";
 
 export const metadata: Metadata = {
   title: "Raj Singh Tanwar | Personal Portfolio",
@@ -14,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body
         className={`bg-gray-50 overflow-x-hidden w-full text-gray-950 relative h-[5000px] pt-28 sm:pt-36`}
         suppressHydrationWarning
@@ -27,8 +28,10 @@ export default function RootLayout({
           className="bg-[#cefdd2] absolute top-[-1rem] left-[-30rem] h-[31.25rem] w-[31.25rem] 
         rounded-full blur-[10rem] -z-10 sm:w-[50rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]"
         ></div>
-        <Header />
-        {children}
+        <ActiveSectionContextProvider>
+          <Header />
+          {children}
+        </ActiveSectionContextProvider>
       </body>
     </html>
   );
