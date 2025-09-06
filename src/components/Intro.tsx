@@ -41,7 +41,7 @@ export default function Intro() {
         className=" mb-10 mt-4 px-4 text-2xl 
        !leading-[1.5] sm:text-2xl"
       >
-        <span className="font-bold">Hello, I'm Raj. </span>Passionate and
+        <span className="font-bold">Hello, I&apos;m Raj. </span>Passionate and
         results-driven Computer Science student with strong foundational
         knowledge in <span className="font-bold">full-stack web</span> and{" "}
         <span className="font-bold">mobile development</span>.
