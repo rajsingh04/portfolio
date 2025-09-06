@@ -24,7 +24,7 @@ export function Header() {
       ></motion.div>
       <nav
         className="flex fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2 
-      py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0"
+      py-2 sm:top-[1.7rem] sm:h-[4.2rem] sm:py-0"
       >
         <ul
           className="flex w-[22rem] flex-wrap items-center
@@ -45,7 +45,7 @@ export function Header() {
                 className={clsx(
                   "flex w-full items-center justify-center px-3 py-5 hover:text-gray-400 transition",
                   {
-                    "text-gray-400": activeSection === link.name,
+                    "text-gray-500": activeSection === link.name,
                   }
                 )}
                 href={link.hash}
@@ -57,7 +57,7 @@ export function Header() {
                 {link.name}
                 {link.name === activeSection && (
                   <motion.span
-                    className="bg-white rounded-full absolute inset-0 -z-10 "
+                    className="bg-gray-300 rounded-full absolute inset-0 -z-10 "
                     layoutId="activeSection"
                     transition={{
                       type: "spring",
