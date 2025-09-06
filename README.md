@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## 🌐 Portfolio Website - Overview
 
-## Getting Started
+This is my personal portfolio website designed to showcase my skills, projects, and experiences in the field of software development. The portfolio highlights my journey as a Computer Science student and aspiring software engineer, with a focus on web development and innovative projects.
 
-First, run the development server:
+The website serves as a central hub where recruiters, collaborators, and peers can explore:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🚀 My technical projects and unique ideas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 💻 Skills in web technologies, programming, and problem-solving
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 📚 Academic background and career goals
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 📩 Easy ways to connect and collaborate with me
 
-## Learn More
+The portfolio is built with a clean and modern design, ensuring a smooth user experience while reflecting my passion for technology and continuous learning.
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠 Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Here are the technologies and tools I used to build my portfolio:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Nextjs
 
-## Deploy on Vercel
+- Tailwind CSS
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Resend (Mail Service package)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- TypeScript
+
+- Framer Motion
+
+
+
