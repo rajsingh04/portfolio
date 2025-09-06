@@ -20,7 +20,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="./1754223147225.jpg"
+              src="/raj.jpg"
               alt="portfolio image"
               width={192}
               height={192}

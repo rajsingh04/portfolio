@@ -35,21 +35,21 @@ export const projectsData = [
     description:
       "An Airbnb-style application designed for booking hotels across various regions worldwide, developed using the Model-View-Controller (MVC) architecture to ensure scalability.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind"],
-    imageUrl: "./wanderlust-project.png",
+    imageUrl: "/wanderlust-project.png",
   },
   {
     title: "Tomato",
     description:
       "Developed a full-stack food delivery web application using React, featuring a seamless Stripe payment gateway integration for secure transactions.",
     tags: ["React", "Nodejs", "Tailwind", "context"],
-    imageUrl: "./tomato-project.png",
+    imageUrl: "/tomato-project.png",
   },
   {
     title: "Techy",
     description:
       "Implemented instant messaging using WebSockets with Socket.IO for seamless, bidirectional communication between users.",
     tags: ["Flutter", "Express", "Nodejs", "MongoDB", "WebSockets"],
-    imageUrl: "./techy-project.png",
+    imageUrl: "/techy-project.png",
   },
 ] as const;
 
