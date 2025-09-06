@@ -20,7 +20,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/1754223147225.jpg"
+              src="./1754223147225.jpg"
               alt="portfolio image"
               width={192}
               height={192}
@@ -65,7 +65,7 @@ export default function Intro() {
           <BsArrowRight className="opacity-80 group-hover:translate-x-1 transition" />
         </Link>
         <a
-          href="/resume.pdf"
+          href="./resume.pdf"
           className="group bg-[#f3f4f6] px-7 py-3 flex
           items-center gap-2 rounded-full outline-none hover:scale-110
            hover:bg-blue-1000 active:scale-105 transition 
