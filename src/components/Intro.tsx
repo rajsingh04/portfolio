@@ -57,16 +57,16 @@ export default function Intro() {
       >
         <Link
           href="#contact"
-          className="group bg-blue-900 text-white px-7 py-3 gap-2 
+          className="group bg-blue-500 text-white px-7 py-3 gap-2 
           rounded-full flex items-center  outline-none
-          hover:scale-110 hover:bg-blue-1000 active:scale-105 transition"
+          hover:scale-110 hover:bg-blue-600 active:scale-105 transition"
         >
           Contact me here{" "}
           <BsArrowRight className="opacity-80 group-hover:translate-x-1 transition" />
         </Link>
         <a
           href="/resume.pdf"
-          className="group bg-white px-7 py-3 flex
+          className="group bg-[#f3f4f6] px-7 py-3 flex
           items-center gap-2 rounded-full outline-none hover:scale-110
            hover:bg-blue-1000 active:scale-105 transition 
            cursor-pointer border border-black/10"
@@ -77,7 +77,7 @@ export default function Intro() {
           <HiDownload className="opacity-80 group-hover:translate-y-1 transition" />
         </a>
         <a
-          className="bg-white p-4 text-gray-700 
+          className="bg-[#f3f4f6] p-4 text-gray-700 
         flex items-center gap-2 rounded-full outline-none hover:scale-[1.15]
            hover:bg-blue-1000 active:scale-105 transition 
            cursor-pointer border border-black/10"
@@ -87,7 +87,7 @@ export default function Intro() {
           <BsLinkedin />
         </a>
         <a
-          className="bg-white p-4 text-gray-700 
+          className="bg-[#f3f4f6] p-4 text-gray-700 
         flex items-center gap-2 rounded-full text-[1.35rem] outline-none hover:scale-[1.15]
            hover:bg-blue-1000 active:scale-105 transition 
            cursor-pointer border border-black/10"

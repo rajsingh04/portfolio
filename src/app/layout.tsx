@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import ActiveSectionContextProvider from "@/context/ActiveSectionContextProvider";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Raj Singh Tanwar | Personal Portfolio",
@@ -21,16 +22,17 @@ export default function RootLayout({
         suppressHydrationWarning
       >
         <div
-          className="bg-[#b1d1f6] absolute -z-10 top-[-6rem] right-[-11rem] h-[31.25rem] 
+          className="bg-blue-300 absolute -z-10 top-[-6rem] right-[-11rem] h-[31.25rem] 
         w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"
         ></div>
         <div
-          className="bg-[#cefdd2] absolute top-[-1rem] left-[-30rem] h-[31.25rem] w-[31.25rem] 
+          className="bg-cyan-300 absolute top-[-1rem] left-[-30rem] h-[31.25rem] w-[31.25rem] 
         rounded-full blur-[10rem] -z-10 sm:w-[50rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]"
         ></div>
         <ActiveSectionContextProvider>
           <Header />
           {children}
+          <Footer />
         </ActiveSectionContextProvider>
       </body>
     </html>

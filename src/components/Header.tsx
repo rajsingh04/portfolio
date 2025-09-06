@@ -11,10 +11,10 @@ export function Header() {
     useActiveSection();
 
   return (
-    <header className="z-999 relative">
+    <header className="z-[999] relative">
       <motion.div
-        className="fixed top-0 left-1/2  h-[4.5rem] w-full
-    rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg
+        className="fixed top-0 left-1/2  h-[4.4rem] w-full
+    rounded-none  border-opacity-40 bg-linear-to-r from-cyan-500 to-blue-500 bg-opacity-80 shadow-lg
     shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25] sm:w-[36rem] sm:rounded-full"
         initial={{ y: -100, x: "-50%", opacity: 0 }}
         animate={{ y: 0, x: "-50%", opacity: 1 }}
@@ -28,7 +28,7 @@ export function Header() {
       >
         <ul
           className="flex w-[22rem] flex-wrap items-center
-        justify-center gap-y-1 text-[0.9rem] font-medium text-gray-500
+        justify-center gap-y-1 text-[0.9rem] font-medium text-white
         sm:w-[initial] sm:flex-nowrap sm:gap-5"
         >
           {links.map((link) => (
@@ -43,9 +43,9 @@ export function Header() {
             >
               <Link
                 className={clsx(
-                  "flex w-full items-center justify-center px-3 py-5 hover:text-blue-500 transition",
+                  "flex w-full items-center justify-center px-3 py-5 hover:text-gray-400 transition",
                   {
-                    "text-blue-500": activeSection === link.name,
+                    "text-gray-400": activeSection === link.name,
                   }
                 )}
                 href={link.hash}
@@ -57,7 +57,7 @@ export function Header() {
                 {link.name}
                 {link.name === activeSection && (
                   <motion.span
-                    className="bg-gray-300 rounded-full absolute inset-0 -z-10 "
+                    className="bg-white rounded-full absolute inset-0 -z-10 "
                     layoutId="activeSection"
                     transition={{
                       type: "spring",

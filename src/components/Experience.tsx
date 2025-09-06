@@ -10,9 +10,9 @@ import { experiencesData } from "@/lib/data";
 
 export const Experience = () => {
   return (
-    <section id="experience" className="mb-28 scroll-mt-28">
+    <section id="experience" className=" scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>Experience</SectionHeading>
-      <VerticalTimeline>
+      <VerticalTimeline lineColor="rgba(0,0,0,0.08)">
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement

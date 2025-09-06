@@ -12,6 +12,7 @@ const fadInAnimation = {
     transition: { delay: 0.05 * index, duration: 0.5 },
   }),
 };
+
 export default function Skills() {
   return (
     <section
@@ -25,13 +26,12 @@ export default function Skills() {
           <motion.li
             variants={fadInAnimation}
             custom={index}
-            animate="animate"
             initial="initial"
-            whileInView={"animate"}
-            viewport={{ once: true }}
+            whileInView="animate"
+            viewport={{ once: true, amount: 0.5 }}
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 300 }}
-            className="bg-white border border-black/[0.1] rounded-xl px-5 py-3"
+            className="bg-[#f3f4f6] border border-black/[0.1] rounded-xl px-5 py-3"
             key={skill}
           >
             {skill}
